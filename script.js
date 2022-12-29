@@ -59,7 +59,7 @@ window.addNewTask = function addNewTask() {
 }
 
 window.updateTask = function updateTask(id) {
-    let newDesc = prompt("Change the description", "New description");
+    let newDesc = prompt("Change the description", "");
     if (newDesc == "" || newDesc == null) alert("Sorry, something went worng");
     else {
         manager.updateTaskDescription(id, newDesc);

@@ -2,7 +2,6 @@ export default class TaskManager {
     constructor() {
         this.taskArr = [];
     }
-
     addTask(desc) {
         this.taskArr.push(desc);
     }
